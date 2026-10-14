@@ -1,0 +1,1131 @@
+{
+ "edition": "2026-10-15",
+ "revision": 1,
+ "prompt_version": "3.2.1",
+ "generated_hkt": "2026-10-15T07:16+08:00",
+ "us_session": "2026-10-14",
+ "quotes": [
+  {
+   "instrument": "S&P 500 (cash)",
+   "level": "7,718.94",
+   "units": "Index",
+   "change": "-1.11%",
+   "baseline": "see note",
+   "observed_hkt": "04:00",
+   "source": "AP",
+   "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-wednesday-10-14-2026",
+   "status": "ok",
+   "note": "Index · close 04:00 HKT · AP"
+  },
+  {
+   "instrument": "Nasdaq Composite (cash)",
+   "level": "26,692.87",
+   "units": "Index",
+   "change": "-1.88%",
+   "baseline": "see note",
+   "observed_hkt": "04:00",
+   "source": "AP",
+   "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-wednesday-10-14-2026",
+   "status": "ok",
+   "note": "Index · close 04:00 HKT · AP"
+  },
+  {
+   "instrument": "VIX",
+   "level": "16.87",
+   "units": "Points",
+   "change": "+1.60",
+   "baseline": "see note",
+   "observed_hkt": "04:15",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EVIX/",
+   "status": "ok",
+   "note": "Points · close 04:15 HKT · Yahoo Finance"
+  },
+  {
+   "instrument": "US 2-year yield",
+   "level": "4.82",
+   "units": "%",
+   "change": "+3bp",
+   "baseline": "see note",
+   "observed_hkt": "04:00",
+   "source": "US Treasury",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": "% · 14 Oct close, 04:00 HKT · US Treasury"
+  },
+  {
+   "instrument": "US 10-year yield",
+   "level": "5.19",
+   "units": "%",
+   "change": "-2bp",
+   "baseline": "see note",
+   "observed_hkt": "04:00",
+   "source": "US Treasury",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": "% · 14 Oct close, 04:00 HKT; above 5.32% intraday per AP · US Treasury"
+  },
+  {
+   "instrument": "US 10-year real yield (TIPS)",
+   "level": "2.84",
+   "units": "%",
+   "change": "-4bp",
+   "baseline": "see note",
+   "observed_hkt": "04:00",
+   "source": "US Treasury real curve",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": "% · 14 Oct close, 04:00 HKT · US Treasury real curve"
+  },
+  {
+   "instrument": "DXY",
+   "level": "102.53",
+   "units": "Index",
+   "change": "+0.34%",
+   "baseline": "see note",
+   "observed_hkt": "06:05",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/DX-Y.NYB/",
+   "status": "ok",
+   "note": "Index · 06:05 HKT · vs 13 Oct close 102.18 · Yahoo Finance"
+  },
+  {
+   "instrument": "USD/JPY",
+   "level": "158.07",
+   "units": "Yen per dollar",
+   "change": "-0.14%",
+   "baseline": "see note",
+   "observed_hkt": "07:18",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/JPY%3DX/",
+   "status": "ok",
+   "note": "Yen per dollar · 07:18 HKT · vs Yahoo prior close 158.291 · Yahoo Finance"
+  },
+  {
+   "instrument": "USD/CNH",
+   "level": "6.6940",
+   "units": "Yuan per dollar",
+   "change": "+0.01%",
+   "baseline": "see note",
+   "observed_hkt": "07:08",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/CNH%3DX/",
+   "status": "ok",
+   "note": "Yuan per dollar · 07:08 HKT · vs Yahoo prior close 6.6930 · Yahoo Finance"
+  },
+  {
+   "instrument": "Gold spot XAU/USD",
+   "level": "4,103.00",
+   "units": "USD/oz, bid",
+   "change": "-0.04%",
+   "baseline": "see note",
+   "observed_hkt": "07:18",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/charts/gold",
+   "status": "ok",
+   "note": "USD/oz, bid · 07:18 HKT · vs Wed 17:00 NY · Reuters had $4,083.94, -1.8%, at 02:05 HKT · Kitco"
+  },
+  {
+   "instrument": "Gold futures COMEX GCZ26 (Dec)",
+   "level": "4,107.90",
+   "units": "USD/oz",
+   "change": "-1.66%",
+   "baseline": "see note",
+   "observed_hkt": "02:30",
+   "source": "Reuters",
+   "url": "https://www.marketscreener.com/news/gold-prices-hold-firm-ahead-of-us-inflation-data-ce785dd2d880f326",
+   "status": "ok",
+   "note": "USD/oz · 14 Oct settle, 02:30 HKT · vs settle 4,177.30 · live 4,124.76 at about 07:20 HKT (Investing.com) · Reuters"
+  },
+  {
+   "instrument": "WTI CLX26 (Nov)",
+   "level": "94.85",
+   "units": "USD/bbl",
+   "change": "+0.75%",
+   "baseline": "see note",
+   "observed_hkt": "07:08",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/CL%3DF/",
+   "status": "ok",
+   "note": "USD/bbl · live 07:08 HKT · vs 13 Oct settle 94.14; 14 Oct settle not published on pages opened · Brent 106.06, +0.4% (AP) · Yahoo Finance"
+  },
+  {
+   "instrument": "Bitcoin",
+   "level": "81,514",
+   "units": "USD",
+   "change": "-1.91%",
+   "baseline": "see note",
+   "observed_hkt": "07:18",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BTC-USD/",
+   "status": "ok",
+   "note": "USD · 07:18 HKT · vs Yahoo prior close · Yahoo Finance"
+  },
+  {
+   "instrument": "Fed funds",
+   "level": "3.75-4.00%",
+   "units": "Target 3.75% to 4.00% since 17 Sep 2026",
+   "change": "0.00%",
+   "baseline": "see note",
+   "observed_hkt": "04:15",
+   "source": "Fed H.15",
+   "url": "https://www.federalreserve.gov/releases/h15/",
+   "status": "ok",
+   "note": "Target 3.75% to 4.00% since 17 Sep 2026 · EFFR 3.88% (13 Oct, H.15 of 14 Oct) · 04:15 HKT · Fed H.15"
+  }
+ ],
+ "gold": {
+  "bias": "Downward",
+  "confidence": "Medium",
+  "drivers": [
+   {
+    "driver": "US dollar",
+    "evidence": "Dollar channel: DXY at 102.53 at 06:05 HKT from a 102.18 Tuesday close ( Yahoo Finance , history ); Reuters said the index \"climbed 0.5%, making greenback-denominated gold more expensive\" ( Reuters )",
+    "push": "Down",
+    "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+   },
+   {
+    "driver": "Real and nominal yields",
+    "evidence": "Yield channel: the 10-year spiked above 5.32% after CPI, then closed at 5.19%, -2bp, with the real yield at 2.84%, -4bp ( US Treasury ); Kitco quoted an analyst saying gold fell as \"real yields rise\" ( Kitco ) Why mixed: The post-CPI spike in real yields was bearish for gold and matches the reported selloff. The lower real-yield close can support gold, but came after gold had already fallen. The independent check read the close as Up; kept Mixed because Reuters and Kitco tie the drop to the rise.",
+    "push": "Mixed",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+   },
+   {
+    "driver": "Fed expectations",
+    "evidence": "Pricing channel: October hike odds 28.7% from 20.7% on the Investing.com monitor (06:45 HKT); Reuters cited CME FedWatch at about 42% from about 22%; Kitco said the data reinforce expectations the Fed \"will have to raise interest rates\"",
+    "push": "Down",
+    "url": "https://www.investing.com/central-banks/fed-rate-monitor"
+   },
+   {
+    "driver": "Risk and geopolitics",
+    "evidence": "Safe haven and via oil: a Houthi missile hit Aramco's Dhahran complex ( The National ) and Iranian officials told Reuters shipping attacks will intensify ( Reuters ); Brent +0.4% to $106.06, and gasoline led the CPI rise Why mixed: Escalation may add safe-haven demand, which supports gold. Higher oil feeds inflation and hike bets, which is bearish and is the channel the CPI print showed; the Fed row already counts that hike pricing.",
+    "push": "Mixed",
+    "url": "https://www.thenationalnews.com/business/energy/2026/10/14/houthi-attack-hits-aramcos-historic-nerve-centre-in-saudi-arabia/"
+   },
+   {
+    "driver": "Official and physical demand",
+    "evidence": "ETF and central bank channel: no new data since the WGC's record September ETF inflows, holdings 4,256t ( WGC , 7 Oct) and the PBoC's September purchase. Stale, unchanged since 13 Oct",
+    "push": "Neutral",
+    "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
+   }
+  ],
+  "competing": "Lower real-yield close and Gulf escalation vs stronger dollar and higher hike odds",
+  "would_change": "Retail sales and PPI tonight at 20:30 HKT; a soft pair would ease the hike case. Fed Chair Warsh speaks Fri 11:30 HKT.",
+  "driver_check": [
+   {
+    "driver": "US dollar",
+    "proposed": "Down",
+    "verifier": "Down",
+    "final": "Down",
+    "evidence_supported": "partly",
+    "note": "added Yahoo history link for the 102.18 baseline"
+   },
+   {
+    "driver": "Real and nominal yields",
+    "proposed": "Mixed",
+    "verifier": "Up",
+    "final": "Mixed",
+    "evidence_supported": "partly",
+    "note": "kept Mixed: Reuters and Kitco tie gold's fall to the post-CPI rise in yields"
+   },
+   {
+    "driver": "Fed expectations",
+    "proposed": "Down",
+    "verifier": "Down",
+    "final": "Down",
+    "evidence_supported": "yes",
+    "note": ""
+   },
+   {
+    "driver": "Risk and geopolitics",
+    "proposed": "Mixed",
+    "verifier": "Mixed",
+    "final": "Mixed",
+    "evidence_supported": "yes",
+    "note": ""
+   },
+   {
+    "driver": "Official and physical demand",
+    "proposed": "Neutral",
+    "verifier": "Neutral",
+    "final": "Neutral",
+    "evidence_supported": "yes",
+    "note": ""
+   }
+  ]
+ },
+ "calendar": [
+  {
+   "hkt": "Thu 08:30",
+   "country": "",
+   "event": "Australia employment change (Sep)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev +39.5K · Forecast +20K; jobless rate prev 4.6%, forecast 4.6% (TE) · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/australia/employment-change"
+  },
+  {
+   "hkt": "Thu 10:55",
+   "country": "",
+   "event": "US Fed Vice Chair for Supervision Bowman speaks",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Not on the Fed calendar · time unconfirmed · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Thu 14:00",
+   "country": "",
+   "event": "UK GDP (Aug)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev 0.4% m/m · Forecast -0.1% m/m (TE) · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Thu 20:30",
+   "country": "",
+   "event": "US retail sales (Sep)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev 1.2% m/m · Forecast 0.3% m/m; control group prev 1.4%, forecast 0.3% (TE) · No-trade 20:28 to 20:32 · Census schedule",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "High",
+   "source_url": "https://www.census.gov/retail/release_schedule.html"
+  },
+  {
+   "hkt": "Thu 20:30",
+   "country": "",
+   "event": "US PPI (Sep)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev 0.4% m/m, 5.4% y/y · Forecast 0.5% m/m, 5.3% y/y (TE) · inside the retail sales no-trade window · BLS schedule",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "hkt": "Thu 20:30",
+   "country": "",
+   "event": "US initial jobless claims (week to 10 Oct)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev 197K · Forecast 200K (TE) · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Thu 20:30",
+   "country": "",
+   "event": "US Empire State and Philly Fed surveys (Oct)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Empire prev 7.6, forecast 10.3 · Philly prev 37.8, forecast 28.4 (TE) · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Thu 22:00",
+   "country": "",
+   "event": "US business inventories (Aug)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev 0.8% m/m · Forecast 0.4% m/m (TE) · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Low",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Thu 23:00",
+   "country": "",
+   "event": "US EIA crude inventories (week to 9 Oct)",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Prev -3.186M barrels · no consensus found · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  },
+  {
+   "hkt": "Fri 04:30",
+   "country": "",
+   "event": "US Cleveland Fed's Hammack speaks",
+   "period": "",
+   "previous": "",
+   "revised": "",
+   "forecast": "Time unconfirmed · TE",
+   "forecast_source": "Trading Economics",
+   "units": "",
+   "impact": "Medium",
+   "source_url": "https://tradingeconomics.com/calendar"
+  }
+ ],
+ "calendar_status": "Calendar verified: 10 events checked against Trading Economics, the Census and BLS release schedules and the Federal Reserve calendar.",
+ "headlines": [
+  "US Sep CPI 0.6% m/m, 3.7% y/y vs 3.6%; core 2.6%",
+  "Spot gold 4,103.00 bid 07:18 HKT; low 4,083.94; GCZ26 settle 4,107.90 -1.66%",
+  "S&P 500 -1.11%, Nasdaq -1.88%, worst day since July",
+  "10y 5.19 -2bp after spike above 5.32; real 2.84; 2y 4.82 +3bp",
+  "DXY 102.53 from 102.18",
+  "Oct hike odds 28.7% (Investing.com), ~42% (FedWatch via Reuters)",
+  "Houthi missile hits Aramco Dhahran; Brent 106.06",
+  "ASML record quarter, supply short of 2027-28 demand",
+  "CoreWeave -15% as bond yield hits 14.5%",
+  "Dell -11.3% on Barclays downgrade; BofA -5% on miss",
+  "China Sep exports +36.3% y/y",
+  "US retail sales and PPI Thu 20:30 HKT; Warsh Fri 11:30 HKT"
+ ],
+ "corrections": [
+  "No corrections to the previous edition."
+ ],
+ "ai_stories": [
+  {
+   "id": "asml-q3",
+   "headline": "ASML says it cannot meet chip-machine demand in 2027 and 2028",
+   "facts": [
+    "Q3 net sales record EUR 11.66bn; gross margin 57.5%; net income EUR 4.96bn",
+    "Supply for 2027 and 2028 will not fully meet demand (CEO Fouquet)",
+    "+30% capacity committed 2027, another 30% studied for 2028",
+    "Price increases agreed, size undisclosed",
+    "Beat vs miss disputed; Amsterdam +1.2%, US listing fell"
+   ],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+    "https://finance.yahoo.com/technology/ai/articles/asml-says-ai-boom-boosting-175035379.html",
+    "https://marketscreener.com/news/european-shares-edge-up-after-solid-asml-results-healthcare-gains-ce785dd2d188f623"
+   ],
+   "paragraph": "A chip is printed by shining light through a stencil onto silicon, and ASML builds the machines that do the printing. Think of a bakery whose ovens are booked solid: customers can want more bread than the bakery can ever bake. That is ASML's message. On 14 Oct it reported record third-quarter sales of EUR 11.66bn and said planned supply for 2027 and 2028 \"will not fully meet the demand of our customers\". It has committed to adding 30% capacity in 2027 and is studying another 30% for 2028. Price rises are agreed, but their size has not been disclosed. Did the results beat expectations? Sources disagree, and US-listed shares fell while Amsterdam shares rose.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "coreweave-debt",
+   "headline": "CoreWeave's shares and bonds sell off",
+   "facts": [
+    "Shares about -15% on 14 Oct",
+    "2032 bond yield record 14.5% close on 13 Oct",
+    "Raised more than USD 35bn this year; about USD 52bn debt and lease obligations end-June (FT via Investing.com/Yahoo)"
+   ],
+   "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/coreweave-shares-sink-13-musk-142006758.html",
+    "https://247wallst.com/investing/2026/10/14/coreweave-falls-10-as-bond-yield-touches-15-and-elon-musk-says-yikes-nebius-drops-6-oracle-slips/"
+   ],
+   "paragraph": "CoreWeave is a landlord for computing. It buys lots of GPUs, the chips that train and run AI, and rents their time out, much like a company that buys trucks and leases them by the day. Buying trucks takes borrowed money. It has raised more than USD 35bn this year, and debt and lease obligations were about USD 52bn at the end of June. A bond's yield is the interest lenders demand, so when it closed at a record 14.5% on 13 Oct, lenders were asking a high price for the risk. Shares fell about 15% on 14 Oct. What is not shown: any missed payment, or what this means for future funding costs.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "gemini-4-argon",
+   "headline": "Google opens Gemini 4 Argon to everyone",
+   "facts": [
+    "Generally available per Google blog 13 Oct",
+    "USD 2/10 per million input/output tokens until 30 Nov, then 4/20",
+    "Vals Index first and ERQA 87% are Google claims",
+    "Rare attempts to circumvent evaluations during training disclosed"
+   ],
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "https://www.infoworld.com/article/4235118/google-positions-gemini-4-argon-for-long-horizon-agentic-work.html"
+   ],
+   "paragraph": "An AI model like Gemini 4 Argon reads text in small pieces called tokens and writes its answer the same way, and developers pay per piece, like a taxi meter. Google says it is now available through its API and in the Gemini app for Pro and Ultra subscribers. Until 30 Nov it costs USD 2 per million input tokens and USD 10 per million output, then USD 4 and USD 20. Google claims first place on the Vals Index and 87% on ERQA, but those are its own numbers. It also disclosed that in rare cases the model tried to get around its own evaluations during training, so outside checks matter.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "gf-japan-fabs",
+   "headline": "Japan to fund two GlobalFoundries chip plants in New York",
+   "facts": [
+    "Two New York fabs funded with up to USD 21bn from Japan",
+    "First about USD 10bn online 2029; second about USD 10bn",
+    "about 900k 300mm wafers a year each",
+    "Commerce gets about 4% equity; USD 955m CHIPS award redirected",
+    "Needs definitive agreements; GFS +5% single source"
+   ],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001709048/000170904826000252/gfpressreleasefinal.htm",
+    "https://finance.yahoo.com/markets/live/stock-market-today-hot-inflation-report-drops-tech-drives-sp-500-nasdaq-down-152206632.html"
+   ],
+   "paragraph": "A fab is a factory where chips are made, and building one is mostly a question of who pays. GlobalFoundries says it will build and run two in New York, funded with up to USD 21bn from Japan under the US-Japan trade and investment deal. The first costs about USD 10bn and should start in 2029; the second costs about another USD 10bn. Each adds about 900,000 300mm wafers a year, where a wafer is the silicon disc chips are cut from. The US Commerce Department gets about a 4% stake in the company. Still open: definitive agreements are still needed, and groundbreaking is only expected later in 2026.",
+   "edited": "none",
+   "explainer": "sonnet"
+  }
+ ],
+ "macro": {
+  "data": {
+   "source": "FRED, Federal Reserve Bank of St. Louis. Series page: https://fred.stlouisfed.org/series/<ID>",
+   "fetched_utc": "2026-10-14T23:16Z",
+   "series": {
+    "PAYEMS": {
+     "label": "Nonfarm payrolls, thousands",
+     "latest": [
+      "2026-09-01",
+      159044.0
+     ],
+     "previous": [
+      "2026-08-01",
+      159015.0
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      158548.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/PAYEMS"
+    },
+    "UNRATE": {
+     "label": "Unemployment rate, %",
+     "latest": [
+      "2026-09-01",
+      4.2
+     ],
+     "previous": [
+      "2026-08-01",
+      4.1
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      4.4
+     ],
+     "url": "https://fred.stlouisfed.org/series/UNRATE"
+    },
+    "ICSA": {
+     "label": "Initial jobless claims, weekly",
+     "latest": [
+      "2026-10-03",
+      197000.0
+     ],
+     "previous": [
+      "2026-09-26",
+      199000.0
+     ],
+     "year_earlier": [
+      "2025-09-27",
+      225000.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/ICSA"
+    },
+    "CPIAUCNS": {
+     "label": "CPI, index, not seasonally adjusted (BLS headline y/y basis)",
+     "latest": [
+      "2026-09-01",
+      336.94
+     ],
+     "previous": [
+      "2026-08-01",
+      334.98
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      324.8
+     ],
+     "url": "https://fred.stlouisfed.org/series/CPIAUCNS"
+    },
+    "CPILFENS": {
+     "label": "Core CPI, index, not seasonally adjusted (BLS headline y/y basis)",
+     "latest": [
+      "2026-09-01",
+      339.287
+     ],
+     "previous": [
+      "2026-08-01",
+      338.041
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      330.804
+     ],
+     "url": "https://fred.stlouisfed.org/series/CPILFENS"
+    },
+    "PCEPILFE": {
+     "label": "Core PCE, index",
+     "latest": [
+      "2026-08-01",
+      130.455
+     ],
+     "previous": [
+      "2026-07-01",
+      130.133
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      126.646
+     ],
+     "url": "https://fred.stlouisfed.org/series/PCEPILFE"
+    },
+    "T10YIE": {
+     "label": "10y breakeven inflation, %",
+     "latest": [
+      "2026-10-14",
+      2.35
+     ],
+     "previous": [
+      "2026-10-13",
+      2.33
+     ],
+     "year_earlier": [
+      "2025-10-14",
+      2.3
+     ],
+     "url": "https://fred.stlouisfed.org/series/T10YIE"
+    },
+    "DFF": {
+     "label": "Effective fed funds, %",
+     "latest": [
+      "2026-10-13",
+      3.88
+     ],
+     "previous": [
+      "2026-10-12",
+      3.88
+     ],
+     "year_earlier": [
+      "2025-10-13",
+      4.1
+     ],
+     "url": "https://fred.stlouisfed.org/series/DFF"
+    },
+    "DGS2": {
+     "label": "2y Treasury yield, %",
+     "latest": [
+      "2026-10-13",
+      4.79
+     ],
+     "previous": [
+      "2026-10-09",
+      4.8
+     ],
+     "year_earlier": [
+      "2025-10-10",
+      3.52
+     ],
+     "url": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    "DGS10": {
+     "label": "10y Treasury yield, %",
+     "latest": [
+      "2026-10-13",
+      5.21
+     ],
+     "previous": [
+      "2026-10-09",
+      5.24
+     ],
+     "year_earlier": [
+      "2025-10-10",
+      4.05
+     ],
+     "url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    "DFII10": {
+     "label": "10y real yield (TIPS), %",
+     "latest": [
+      "2026-10-13",
+      2.88
+     ],
+     "previous": [
+      "2026-10-09",
+      2.91
+     ],
+     "year_earlier": [
+      "2025-10-10",
+      1.75
+     ],
+     "url": "https://fred.stlouisfed.org/series/DFII10"
+    },
+    "DTWEXBGS": {
+     "label": "Broad dollar index",
+     "latest": [
+      "2026-10-09",
+      121.6023
+     ],
+     "previous": [
+      "2026-10-08",
+      121.4469
+     ],
+     "year_earlier": [
+      "2025-10-09",
+      121.0902
+     ],
+     "url": "https://fred.stlouisfed.org/series/DTWEXBGS"
+    },
+    "A191RP1Q027SBEA": {
+     "label": "Nominal GDP growth, % q/q annualised",
+     "latest": [
+      "2026-04-01",
+      8.5
+     ],
+     "previous": [
+      "2026-01-01",
+      5.8
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      6.2
+     ],
+     "url": "https://fred.stlouisfed.org/series/A191RP1Q027SBEA"
+    },
+    "A191RL1Q225SBEA": {
+     "label": "Real GDP growth, % q/q annualised",
+     "latest": [
+      "2026-04-01",
+      2.2
+     ],
+     "previous": [
+      "2026-01-01",
+      2.5
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      4.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA"
+    },
+    "GFDEGDQ188S": {
+     "label": "Federal debt, % of GDP",
+     "latest": [
+      "2026-01-01",
+      122.59387
+     ],
+     "previous": [
+      "2025-10-01",
+      122.56815
+     ],
+     "year_earlier": [
+      "2025-01-01",
+      120.54515
+     ],
+     "url": "https://fred.stlouisfed.org/series/GFDEGDQ188S"
+    },
+    "GFDEBTN": {
+     "label": "Federal debt, $ millions",
+     "latest": [
+      "2026-04-01",
+      39462398.0
+     ],
+     "previous": [
+      "2026-01-01",
+      39065421.0
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      36211469.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/GFDEBTN"
+    },
+    "FGRECPT": {
+     "label": "Federal receipts, $ billions annual rate",
+     "latest": [
+      "2026-04-01",
+      6055.991
+     ],
+     "previous": [
+      "2026-01-01",
+      5936.898
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      5657.411
+     ],
+     "url": "https://fred.stlouisfed.org/series/FGRECPT"
+    },
+    "A091RC1Q027SBEA": {
+     "label": "Federal interest payments, $ billions annual rate",
+     "latest": [
+      "2026-04-01",
+      1279.734
+     ],
+     "previous": [
+      "2026-01-01",
+      1252.858
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      1197.132
+     ],
+     "url": "https://fred.stlouisfed.org/series/A091RC1Q027SBEA"
+    },
+    "FYFSGDA188S": {
+     "label": "Federal deficit (-) or surplus, % of GDP, annual",
+     "latest": [
+      "2025-01-01",
+      -5.76906
+     ],
+     "previous": [
+      "2024-01-01",
+      -6.19625
+     ],
+     "year_earlier": [
+      "2024-01-01",
+      -6.19625
+     ],
+     "url": "https://fred.stlouisfed.org/series/FYFSGDA188S"
+    },
+    "WALCL": {
+     "label": "Fed balance sheet, $ millions",
+     "latest": [
+      "2026-10-07",
+      6747560.0
+     ],
+     "previous": [
+      "2026-09-30",
+      6743031.0
+     ],
+     "year_earlier": [
+      "2025-10-01",
+      6587119.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/WALCL"
+    },
+    "M2SL": {
+     "label": "M2 money supply, $ billions",
+     "latest": [
+      "2026-08-01",
+      23342.8
+     ],
+     "previous": [
+      "2026-07-01",
+      23217.9
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      22092.6
+     ],
+     "url": "https://fred.stlouisfed.org/series/M2SL"
+    },
+    "FDHBFIN": {
+     "label": "Foreign holdings of Treasuries, $ billions",
+     "latest": [
+      "2026-01-01",
+      9355.0
+     ],
+     "previous": [
+      "2025-10-01",
+      9269.5
+     ],
+     "year_earlier": [
+      "2025-01-01",
+      9052.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/FDHBFIN"
+    },
+    "TNWBSHNO": {
+     "label": "Household net worth, $ millions",
+     "latest": [
+      "2026-04-01",
+      195870496.0
+     ],
+     "previous": [
+      "2026-01-01",
+      183067096.0
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      175246515.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/TNWBSHNO"
+    }
+   },
+   "derived": {
+    "payrolls_change_k": {
+     "value": 29.0,
+     "previous_period": 133.0,
+     "year_earlier": null,
+     "formula": "PAYEMS latest month minus the month before (thousands)",
+     "as_of": {
+      "PAYEMS": "2026-09-01"
+     }
+    },
+    "cpi_yoy_pct": {
+     "value": 3.74,
+     "previous_period": 3.4,
+     "year_earlier": 3.01,
+     "formula": "CPIAUCNS vs 12 months earlier (matches the BLS headline)",
+     "as_of": {
+      "CPIAUCNS": "2026-09-01"
+     }
+    },
+    "core_cpi_yoy_pct": {
+     "value": 2.56,
+     "previous_period": 2.45,
+     "year_earlier": 3.02,
+     "formula": "CPILFENS vs 12 months earlier (matches the BLS headline)",
+     "as_of": {
+      "CPILFENS": "2026-09-01"
+     }
+    },
+    "core_pce_yoy_pct": {
+     "value": 3.01,
+     "previous_period": 2.98,
+     "year_earlier": 2.85,
+     "formula": "PCEPILFE vs 12 months earlier",
+     "as_of": {
+      "PCEPILFE": "2026-08-01"
+     }
+    },
+    "debt_to_revenue_x": {
+     "value": 6.52,
+     "previous_period": null,
+     "year_earlier": 6.4,
+     "formula": "GFDEBTN/1000 divided by FGRECPT: debt as a multiple of a year's federal revenue",
+     "as_of": {
+      "GFDEBTN": "2026-04-01",
+      "FGRECPT": "2026-04-01"
+     }
+    },
+    "interest_to_revenue_pct": {
+     "value": 21.13,
+     "previous_period": null,
+     "year_earlier": 21.16,
+     "formula": "A091RC1Q027SBEA / FGRECPT x 100: share of federal revenue spent on interest",
+     "as_of": {
+      "A091RC1Q027SBEA": "2026-04-01",
+      "FGRECPT": "2026-04-01"
+     }
+    },
+    "nominal_10y_minus_nominal_growth_pp": {
+     "value": -3.29,
+     "previous_period": null,
+     "year_earlier": -2.15,
+     "formula": "DGS10 minus A191RP1Q027SBEA (one quarter of growth, annualised: noisy)",
+     "as_of": {
+      "DGS10": "2026-10-13",
+      "A191RP1Q027SBEA": "2026-04-01"
+     }
+    },
+    "real_10y_minus_real_growth_pp": {
+     "value": 0.68,
+     "previous_period": null,
+     "year_earlier": -2.25,
+     "formula": "DFII10 minus A191RL1Q225SBEA (one quarter of growth, annualised: noisy)",
+     "as_of": {
+      "DFII10": "2026-10-13",
+      "A191RL1Q225SBEA": "2026-04-01"
+     }
+    },
+    "fed_balance_sheet_yoy_pct": {
+     "value": 2.44,
+     "previous_period": null,
+     "year_earlier": -6.52,
+     "formula": "WALCL vs 52 weeks earlier",
+     "as_of": {
+      "WALCL": "2026-10-07"
+     }
+    },
+    "foreign_treasury_holdings_yoy_pct": {
+     "value": 3.35,
+     "previous_period": null,
+     "year_earlier": 11.64,
+     "formula": "FDHBFIN vs four quarters earlier",
+     "as_of": {
+      "FDHBFIN": "2026-01-01"
+     }
+    },
+    "household_net_worth_to_m2_x": {
+     "value": 8.39,
+     "previous_period": null,
+     "year_earlier": 7.93,
+     "formula": "TNWBSHNO/1000 divided by M2SL: household net worth per dollar of M2",
+     "as_of": {
+      "TNWBSHNO": "2026-04-01",
+      "M2SL": "2026-08-01"
+     }
+    }
+   },
+   "unavailable": []
+  },
+  "us_data_rows": [
+   {
+    "indicator": "Nonfarm payrolls, change",
+    "latest": "+29k",
+    "previous": "+133k",
+    "period": "Sep vs Aug, released 2 Oct",
+    "source": "Sep vs Aug, released 2 Oct · BLS via FRED PAYEMS",
+    "url": "https://fred.stlouisfed.org/series/PAYEMS"
+   },
+   {
+    "indicator": "Unemployment rate",
+    "latest": "4.2%",
+    "previous": "4.1%",
+    "period": "Sep vs Aug",
+    "source": "Sep vs Aug · BLS via FRED UNRATE",
+    "url": "https://fred.stlouisfed.org/series/UNRATE"
+   },
+   {
+    "indicator": "Initial jobless claims",
+    "latest": "197k",
+    "previous": "199k",
+    "period": "Week to 3 Oct vs 26 Sep; next print tonight 20:30 HKT",
+    "source": "Week to 3 Oct vs 26 Sep; next print tonight 20:30 HKT · DOL via FRED ICSA",
+    "url": "https://fred.stlouisfed.org/series/ICSA"
+   },
+   {
+    "indicator": "CPI, y/y",
+    "latest": "3.7%",
+    "previous": "3.4%",
+    "period": "Sep vs Aug, unadjusted, released 14 Oct",
+    "source": "Sep vs Aug, unadjusted, released 14 Oct · BLS via FRED CPIAUCNS",
+    "url": "https://fred.stlouisfed.org/series/CPIAUCNS"
+   },
+   {
+    "indicator": "Core CPI, y/y",
+    "latest": "2.6%",
+    "previous": "2.4%",
+    "period": "Sep vs Aug, released 14 Oct",
+    "source": "Sep vs Aug, released 14 Oct · BLS via FRED CPILFENS",
+    "url": "https://fred.stlouisfed.org/series/CPILFENS"
+   },
+   {
+    "indicator": "Core PCE prices, y/y",
+    "latest": "3.0%",
+    "previous": "3.0%",
+    "period": "Aug vs Jul",
+    "source": "Aug vs Jul · BEA via FRED PCEPILFE",
+    "url": "https://fred.stlouisfed.org/series/PCEPILFE"
+   },
+   {
+    "indicator": "10-year real yield (TIPS)",
+    "latest": "2.84%",
+    "previous": "2.88%",
+    "period": "14 Oct close vs 13 Oct",
+    "source": "14 Oct close vs 13 Oct · US Treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+   },
+   {
+    "indicator": "10-year breakeven inflation",
+    "latest": "2.35%",
+    "previous": "2.33%",
+    "period": "14 Oct vs 13 Oct",
+    "source": "14 Oct vs 13 Oct · FRED T10YIE",
+    "url": "https://fred.stlouisfed.org/series/T10YIE"
+   },
+   {
+    "indicator": "Broad dollar index",
+    "latest": "121.60",
+    "previous": "121.45",
+    "period": "9 Oct vs 8 Oct, latest Fed data",
+    "source": "9 Oct vs 8 Oct, latest Fed data · FRED DTWEXBGS",
+    "url": "https://fred.stlouisfed.org/series/DTWEXBGS"
+   }
+  ],
+  "fedpath": [
+   {
+    "meeting": "28 Oct",
+    "hold": "71.3%",
+    "cut": "0.0%",
+    "hike": "28.7%",
+    "split": "Hike: +25bp 28.7%",
+    "change": "-8.0pp",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch returned an error)",
+    "observed_hkt": "2026-10-15T06:45"
+   },
+   {
+    "meeting": "9 Dec",
+    "hold": "13.5%",
+    "cut": "0.0%",
+    "hike": "86.5%",
+    "split": "Hike: +25bp 63.2%, +50bp 23.3%",
+    "change": "-3.3pp",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch returned an error)",
+    "observed_hkt": "2026-10-15T06:45"
+   },
+   {
+    "meeting": "27 Jan 2027",
+    "hold": "7.7%",
+    "cut": "0.0%",
+    "hike": "92.3%",
+    "split": "Hike: +25bp 41.9%, +50bp 40.4%, +75bp 10.0%",
+    "change": "-1.9pp",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch returned an error)",
+    "observed_hkt": "2026-10-15T06:45"
+   }
+  ],
+  "lens": {
+   "mechanics": "Gold competes with cash and bonds as a store of wealth. A price is the money spent divided by the goods sold, so when spending grows faster than output, prices rise. The central bank then tightens, which raises the real return on cash and makes holding gold more costly.",
+   "data": "Three forces. First, inflation is speeding up: CPI 3.7% from 3.4%, core 2.6% from 2.4%. Second, the real return on bonds stays high at 2.84%, a headwind, though 4bp lower at the close. Third, hiring has stalled at +29k. The usual template is that tightening into a slowing economy later turns to easing, which helps gold. Today differs because inflation is rising, so tightening comes first.",
+   "unsustainable": "Interest takes about 21% of federal revenue (Q2 2026), like a family whose loan bill rises faster than its pay. Each hike adds to it. These are rough indicators.",
+   "would_change": "Retail sales and PPI tonight at 20:30 HKT; a soft pair would ease the hike case. Fed Chair Warsh speaks Fri 11:30 HKT.",
+   "check": "Debt-cycle read checked (Sonnet): 9 of 9 checks passed."
+  },
+  "longview": {
+   "status": "updated",
+   "since": "2026-10-14",
+   "rows": [
+    {
+     "indicator": "Federal debt, % of GDP",
+     "latest": "122.6%",
+     "year_earlier": "120.5%",
+     "as_of": "as of Q1 2026"
+    },
+    {
+     "indicator": "Federal debt, multiple of a year's revenue",
+     "latest": "6.5x",
+     "year_earlier": "6.4x",
+     "as_of": "as of Q2 2026"
+    },
+    {
+     "indicator": "Interest, % of federal revenue",
+     "latest": "21.1%",
+     "year_earlier": "21.2%",
+     "as_of": "as of Q2 2026"
+    },
+    {
+     "indicator": "10-year yield minus nominal GDP growth",
+     "latest": "-3.3pp",
+     "year_earlier": "-2.1pp",
+     "as_of": "yield 13 Oct, growth Q2 2026 annualised, noisy"
+    },
+    {
+     "indicator": "10-year real yield minus real GDP growth",
+     "latest": "+0.7pp",
+     "year_earlier": "-2.2pp",
+     "as_of": "yield 13 Oct, growth Q2 2026 annualised, noisy"
+    },
+    {
+     "indicator": "Fed balance sheet, change y/y",
+     "latest": "+2.4%",
+     "year_earlier": "-6.5%",
+     "as_of": "week to 7 Oct"
+    },
+    {
+     "indicator": "Foreign holdings of Treasuries, change y/y",
+     "latest": "+3.4%",
+     "year_earlier": "+11.6%",
+     "as_of": "as of Q1 2026"
+    },
+    {
+     "indicator": "Household net worth per dollar of M2",
+     "latest": "8.4x",
+     "year_earlier": "7.9x",
+     "as_of": "as of Q2 2026"
+    }
+   ],
+   "cycle": "Debt keeps growing faster than revenue, now 6.5 times a year's revenue. The big change is real rates: the real 10-year yield went from 2.2 points below real growth to 0.7 points above it, the condition under which debt burdens grow on their own. Fast nominal growth keeps the ratios steady for now. That reads as late in the cycle, in a tightening phase rather than a printing one.",
+   "asset_classes": "While real yields are high, cash earns a real return. Long-term bonds carry the risk that heavy debts are later eased with printing. Stocks depend on growth holding up under tighter money. Gold has tended to do best in the printing phase, not the tightening phase, so the framework treats it as a diversifier, not a timing call."
+  }
+ }
+}
