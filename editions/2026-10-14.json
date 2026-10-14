@@ -1,8 +1,8 @@
 {
  "edition": "2026-10-14",
- "revision": 1,
- "prompt_version": "3.0.0",
- "generated_hkt": "2026-10-14T10:40+08:00",
+ "revision": 2,
+ "prompt_version": "3.1.0",
+ "generated_hkt": "2026-10-14T11:38+08:00",
  "us_session": "2026-10-13",
  "quotes": [
   {
@@ -115,11 +115,11 @@
   },
   {
    "instrument": "Gold spot XAU/USD",
-   "level": "4161.60",
+   "level": "4163.80",
    "units": "USD/oz",
-   "change": "+0.04%",
+   "change": "+0.09%",
    "baseline": "Kitco prior NY close",
-   "observed_hkt": "2026-10-14T10:41",
+   "observed_hkt": "2026-10-14T11:39",
    "source": "Kitco",
    "url": "https://www.kitco.com/charts/gold",
    "status": "ok",
@@ -180,36 +180,36 @@
   "drivers": [
    {
     "driver": "US dollar",
-    "evidence": "DXY 102.18 from 102.42; Kitco cited softer dollar",
+    "evidence": "Dollar channel: DXY closed Tuesday at 102.18, from 102.42 in the 13 Oct edition, after Monday's high since April 2025 ( Yahoo Finance ); Kitco cited the softer dollar for gold's early gain",
     "push": "Up",
     "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
    },
    {
     "driver": "Real and nominal yields",
-    "evidence": "Real 10y 2.88 from 2.91; 10y 5.21 -3bp",
+    "evidence": "Yield channel: 10-year real yield 2.88%, from 2.91%; nominal 10-year 5.21%, -3bp, on the Treasury par curve in Markets (real yield: US Treasury )",
     "push": "Up",
-    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&amp;field_tdr_date_value_month=202610"
    },
    {
     "driver": "Fed expectations",
-    "evidence": "Williams one more hike, Collins a bit further; FedWatch Dec 88%",
+    "evidence": "Pricing channel: Williams said \"one more rate hike may be appropriate\" this year and Collins expects to raise \"a bit further\" ( investingLive ); CME FedWatch December hike 88% at about 08:11 HKT, from 87.7% in the 13 Oct edition ( rallies.ai )",
     "push": "Down",
     "url": "https://investinglive.com/central-banks/icymi-three-fed-officials-signal-inflation-fight-continues-williams-sees-no-2027-hike/"
    },
    {
     "driver": "Risk and geopolitics",
-    "evidence": "Sanaa, Dhahran booms, Hormuz tanker attacks; Brent -0.9%",
+    "evidence": "Safe haven and via oil: Houthi-run media said Saudi forces targeted Sanaa, booms were reported near Aramco's Dhahran headquarters, and tanker attacks continued near Hormuz; Brent -0.9% to $105.69, WTI +0.4% ( Reuters ) Why mixed: Escalation may add safe-haven demand, which supports gold. Investing.com said the flare-up \"raised concerns about persistent inflation\", which feeds hike bets and is bearish ( Investing.com ).",
     "push": "Mixed",
     "url": "https://lufkindailynews.com/news_reuters/business/oil-prices-settle-mixed-focus-on-us-russia-diesel-deal-saudi-yemen-attacks/article_e0e17bac-dfd7-5f06-b79c-01d0b11810d7.html"
    },
    {
     "driver": "Official and physical demand",
-    "evidence": "WGC Sep ETF record, stale (7 Oct)",
+    "evidence": "ETF channel: no new data since the WGC's record September inflows, holdings 4,256t ( WGC ). Stale, unchanged since 13 Oct",
     "push": "Neutral",
     "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
    }
   ],
-  "competing": "Weaker dollar and lower real yields vs hawkish Fed talk and Gulf oil risk.",
+  "competing": "",
   "would_change": "US CPI Wed 20:30 HKT; retail sales and PPI Thu 20:30 HKT.",
   "driver_check": [
    {
@@ -218,14 +218,14 @@
     "verifier": "Up",
     "final": "Up",
     "evidence_supported": "partly",
-    "note": "102.42 baseline from previous edition; labelled"
+    "note": ""
    },
    {
     "driver": "Real and nominal yields",
     "proposed": "Up",
     "verifier": "Up",
     "final": "Up",
-    "evidence_supported": "yes",
+    "evidence_supported": "partly",
     "note": ""
    },
    {
@@ -234,15 +234,15 @@
     "verifier": "Down",
     "final": "Down",
     "evidence_supported": "partly",
-    "note": "87.7% from previous edition; labelled"
+    "note": ""
    },
    {
     "driver": "Risk and geopolitics",
     "proposed": "Mixed",
-    "verifier": "Mixed",
+    "verifier": "Up",
     "final": "Mixed",
     "evidence_supported": "partly",
-    "note": "Sanaa strike reworded as Houthi claim; tanker fire reworded as tanker attacks"
+    "note": "kept Mixed after re-opening Investing.com, which states the bearish inflation channel"
    },
    {
     "driver": "Official and physical demand",
@@ -250,7 +250,7 @@
     "verifier": "Neutral",
     "final": "Neutral",
     "evidence_supported": "yes",
-    "note": "stale"
+    "note": ""
    }
   ]
  },
@@ -336,7 +336,7 @@
  ],
  "calendar_status": "Calendar verified: 6 events checked against Trading Economics, the BLS schedule, the Federal Reserve calendar and the Beige Book schedule.",
  "headlines": [
-  "Gold spot 4161.60 at 10:41 HKT; Tue settle 4161.20 -0.3%",
+  "Gold spot 4163.80 at 11:39 HKT; Tue settle 4161.20 -0.3%",
   "GCZ26 settle 4177.30 -0.32%",
   "S&P 500 -0.02%, Nasdaq -0.15%",
   "10y 5.21 -3bp, real 2.88",
@@ -348,7 +348,9 @@
   "IMF warns on circular AI deals; AMAT -6.7%",
   "US CPI Wed 20:30 HKT"
  ],
- "corrections": [],
+ "corrections": [
+  "Revision 2: new Gold today and Long view sections (prompt v3.1.0); spot gold updated. No revision 1 figure changed."
+ ],
  "explained": {
   "topic": "Circular AI financing and wrong-way risk (IMF)",
   "try_first": "If you lend a friend money so they can buy your bike, how sure are you of getting paid?",
@@ -357,5 +359,649 @@
    "https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report"
   ],
   "single_source": false
+ },
+ "macro": {
+  "data": {
+   "source": "FRED, Federal Reserve Bank of St. Louis. Series page: https://fred.stlouisfed.org/series/<ID>",
+   "fetched_utc": "2026-10-14T03:47Z",
+   "series": {
+    "PAYEMS": {
+     "label": "Nonfarm payrolls, thousands",
+     "latest": [
+      "2026-09-01",
+      159044.0
+     ],
+     "previous": [
+      "2026-08-01",
+      159015.0
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      158548.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/PAYEMS"
+    },
+    "UNRATE": {
+     "label": "Unemployment rate, %",
+     "latest": [
+      "2026-09-01",
+      4.2
+     ],
+     "previous": [
+      "2026-08-01",
+      4.1
+     ],
+     "year_earlier": [
+      "2025-09-01",
+      4.4
+     ],
+     "url": "https://fred.stlouisfed.org/series/UNRATE"
+    },
+    "ICSA": {
+     "label": "Initial jobless claims, weekly",
+     "latest": [
+      "2026-10-03",
+      197000.0
+     ],
+     "previous": [
+      "2026-09-26",
+      199000.0
+     ],
+     "year_earlier": [
+      "2025-09-27",
+      225000.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/ICSA"
+    },
+    "CPIAUCNS": {
+     "label": "CPI, index, not seasonally adjusted (BLS headline y/y basis)",
+     "latest": [
+      "2026-08-01",
+      334.98
+     ],
+     "previous": [
+      "2026-07-01",
+      333.918
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      323.976
+     ],
+     "url": "https://fred.stlouisfed.org/series/CPIAUCNS"
+    },
+    "CPILFENS": {
+     "label": "Core CPI, index, not seasonally adjusted (BLS headline y/y basis)",
+     "latest": [
+      "2026-08-01",
+      338.041
+     ],
+     "previous": [
+      "2026-07-01",
+      337.133
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      329.97
+     ],
+     "url": "https://fred.stlouisfed.org/series/CPILFENS"
+    },
+    "PCEPILFE": {
+     "label": "Core PCE, index",
+     "latest": [
+      "2026-08-01",
+      130.455
+     ],
+     "previous": [
+      "2026-07-01",
+      130.133
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      126.646
+     ],
+     "url": "https://fred.stlouisfed.org/series/PCEPILFE"
+    },
+    "T10YIE": {
+     "label": "10y breakeven inflation, %",
+     "latest": [
+      "2026-10-13",
+      2.33
+     ],
+     "previous": [
+      "2026-10-09",
+      2.33
+     ],
+     "year_earlier": [
+      "2025-10-10",
+      2.3
+     ],
+     "url": "https://fred.stlouisfed.org/series/T10YIE"
+    },
+    "DFF": {
+     "label": "Effective fed funds, %",
+     "latest": [
+      "2026-10-12",
+      3.88
+     ],
+     "previous": [
+      "2026-10-11",
+      3.88
+     ],
+     "year_earlier": [
+      "2025-10-12",
+      4.1
+     ],
+     "url": "https://fred.stlouisfed.org/series/DFF"
+    },
+    "DGS2": {
+     "label": "2y Treasury yield, %",
+     "latest": [
+      "2026-10-09",
+      4.8
+     ],
+     "previous": [
+      "2026-10-08",
+      4.75
+     ],
+     "year_earlier": [
+      "2025-10-09",
+      3.6
+     ],
+     "url": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    "DGS10": {
+     "label": "10y Treasury yield, %",
+     "latest": [
+      "2026-10-09",
+      5.24
+     ],
+     "previous": [
+      "2026-10-08",
+      5.22
+     ],
+     "year_earlier": [
+      "2025-10-09",
+      4.14
+     ],
+     "url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    "DFII10": {
+     "label": "10y real yield (TIPS), %",
+     "latest": [
+      "2026-10-09",
+      2.91
+     ],
+     "previous": [
+      "2026-10-08",
+      2.87
+     ],
+     "year_earlier": [
+      "2025-10-09",
+      1.8
+     ],
+     "url": "https://fred.stlouisfed.org/series/DFII10"
+    },
+    "DTWEXBGS": {
+     "label": "Broad dollar index",
+     "latest": [
+      "2026-10-09",
+      121.6023
+     ],
+     "previous": [
+      "2026-10-08",
+      121.4469
+     ],
+     "year_earlier": [
+      "2025-10-09",
+      121.0902
+     ],
+     "url": "https://fred.stlouisfed.org/series/DTWEXBGS"
+    },
+    "A191RP1Q027SBEA": {
+     "label": "Nominal GDP growth, % q/q annualised",
+     "latest": [
+      "2026-04-01",
+      8.5
+     ],
+     "previous": [
+      "2026-01-01",
+      5.8
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      6.2
+     ],
+     "url": "https://fred.stlouisfed.org/series/A191RP1Q027SBEA"
+    },
+    "A191RL1Q225SBEA": {
+     "label": "Real GDP growth, % q/q annualised",
+     "latest": [
+      "2026-04-01",
+      2.2
+     ],
+     "previous": [
+      "2026-01-01",
+      2.5
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      4.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA"
+    },
+    "GFDEGDQ188S": {
+     "label": "Federal debt, % of GDP",
+     "latest": [
+      "2026-01-01",
+      122.59387
+     ],
+     "previous": [
+      "2025-10-01",
+      122.56815
+     ],
+     "year_earlier": [
+      "2025-01-01",
+      120.54515
+     ],
+     "url": "https://fred.stlouisfed.org/series/GFDEGDQ188S"
+    },
+    "GFDEBTN": {
+     "label": "Federal debt, $ millions",
+     "latest": [
+      "2026-04-01",
+      39462398.0
+     ],
+     "previous": [
+      "2026-01-01",
+      39065421.0
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      36211469.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/GFDEBTN"
+    },
+    "FGRECPT": {
+     "label": "Federal receipts, $ billions annual rate",
+     "latest": [
+      "2026-04-01",
+      6055.991
+     ],
+     "previous": [
+      "2026-01-01",
+      5936.898
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      5657.411
+     ],
+     "url": "https://fred.stlouisfed.org/series/FGRECPT"
+    },
+    "A091RC1Q027SBEA": {
+     "label": "Federal interest payments, $ billions annual rate",
+     "latest": [
+      "2026-04-01",
+      1279.734
+     ],
+     "previous": [
+      "2026-01-01",
+      1252.858
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      1197.132
+     ],
+     "url": "https://fred.stlouisfed.org/series/A091RC1Q027SBEA"
+    },
+    "FYFSGDA188S": {
+     "label": "Federal deficit (-) or surplus, % of GDP, annual",
+     "latest": [
+      "2025-01-01",
+      -5.76906
+     ],
+     "previous": [
+      "2024-01-01",
+      -6.19625
+     ],
+     "year_earlier": [
+      "2024-01-01",
+      -6.19625
+     ],
+     "url": "https://fred.stlouisfed.org/series/FYFSGDA188S"
+    },
+    "WALCL": {
+     "label": "Fed balance sheet, $ millions",
+     "latest": [
+      "2026-10-07",
+      6747560.0
+     ],
+     "previous": [
+      "2026-09-30",
+      6743031.0
+     ],
+     "year_earlier": [
+      "2025-10-01",
+      6587119.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/WALCL"
+    },
+    "M2SL": {
+     "label": "M2 money supply, $ billions",
+     "latest": [
+      "2026-08-01",
+      23342.8
+     ],
+     "previous": [
+      "2026-07-01",
+      23217.9
+     ],
+     "year_earlier": [
+      "2025-08-01",
+      22092.6
+     ],
+     "url": "https://fred.stlouisfed.org/series/M2SL"
+    },
+    "FDHBFIN": {
+     "label": "Foreign holdings of Treasuries, $ billions",
+     "latest": [
+      "2026-01-01",
+      9355.0
+     ],
+     "previous": [
+      "2025-10-01",
+      9269.5
+     ],
+     "year_earlier": [
+      "2025-01-01",
+      9052.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/FDHBFIN"
+    },
+    "TNWBSHNO": {
+     "label": "Household net worth, $ millions",
+     "latest": [
+      "2026-04-01",
+      195870496.0
+     ],
+     "previous": [
+      "2026-01-01",
+      183067096.0
+     ],
+     "year_earlier": [
+      "2025-04-01",
+      175246515.0
+     ],
+     "url": "https://fred.stlouisfed.org/series/TNWBSHNO"
+    }
+   },
+   "derived": {
+    "payrolls_change_k": {
+     "value": 29.0,
+     "previous_period": 133.0,
+     "year_earlier": null,
+     "formula": "PAYEMS latest month minus the month before (thousands)",
+     "as_of": {
+      "PAYEMS": "2026-09-01"
+     }
+    },
+    "cpi_yoy_pct": {
+     "value": 3.4,
+     "previous_period": 3.36,
+     "year_earlier": 2.92,
+     "formula": "CPIAUCNS vs 12 months earlier (matches the BLS headline)",
+     "as_of": {
+      "CPIAUCNS": "2026-08-01"
+     }
+    },
+    "core_cpi_yoy_pct": {
+     "value": 2.45,
+     "previous_period": 2.48,
+     "year_earlier": 3.11,
+     "formula": "CPILFENS vs 12 months earlier (matches the BLS headline)",
+     "as_of": {
+      "CPILFENS": "2026-08-01"
+     }
+    },
+    "core_pce_yoy_pct": {
+     "value": 3.01,
+     "previous_period": 2.98,
+     "year_earlier": 2.85,
+     "formula": "PCEPILFE vs 12 months earlier",
+     "as_of": {
+      "PCEPILFE": "2026-08-01"
+     }
+    },
+    "debt_to_revenue_x": {
+     "value": 6.52,
+     "previous_period": null,
+     "year_earlier": 6.4,
+     "formula": "GFDEBTN/1000 divided by FGRECPT: debt as a multiple of a year's federal revenue",
+     "as_of": {
+      "GFDEBTN": "2026-04-01",
+      "FGRECPT": "2026-04-01"
+     }
+    },
+    "interest_to_revenue_pct": {
+     "value": 21.13,
+     "previous_period": null,
+     "year_earlier": 21.16,
+     "formula": "A091RC1Q027SBEA / FGRECPT x 100: share of federal revenue spent on interest",
+     "as_of": {
+      "A091RC1Q027SBEA": "2026-04-01",
+      "FGRECPT": "2026-04-01"
+     }
+    },
+    "nominal_10y_minus_nominal_growth_pp": {
+     "value": -3.26,
+     "previous_period": null,
+     "year_earlier": -2.06,
+     "formula": "DGS10 minus A191RP1Q027SBEA (one quarter of growth, annualised: noisy)",
+     "as_of": {
+      "DGS10": "2026-10-09",
+      "A191RP1Q027SBEA": "2026-04-01"
+     }
+    },
+    "real_10y_minus_real_growth_pp": {
+     "value": 0.71,
+     "previous_period": null,
+     "year_earlier": -2.2,
+     "formula": "DFII10 minus A191RL1Q225SBEA (one quarter of growth, annualised: noisy)",
+     "as_of": {
+      "DFII10": "2026-10-09",
+      "A191RL1Q225SBEA": "2026-04-01"
+     }
+    },
+    "fed_balance_sheet_yoy_pct": {
+     "value": 2.44,
+     "previous_period": null,
+     "year_earlier": -6.52,
+     "formula": "WALCL vs 52 weeks earlier",
+     "as_of": {
+      "WALCL": "2026-10-07"
+     }
+    },
+    "foreign_treasury_holdings_yoy_pct": {
+     "value": 3.35,
+     "previous_period": null,
+     "year_earlier": 11.64,
+     "formula": "FDHBFIN vs four quarters earlier",
+     "as_of": {
+      "FDHBFIN": "2026-01-01"
+     }
+    },
+    "household_net_worth_to_m2_x": {
+     "value": 8.39,
+     "previous_period": null,
+     "year_earlier": 7.93,
+     "formula": "TNWBSHNO/1000 divided by M2SL: household net worth per dollar of M2",
+     "as_of": {
+      "TNWBSHNO": "2026-04-01",
+      "M2SL": "2026-08-01"
+     }
+    }
+   },
+   "unavailable": []
+  },
+  "us_data_rows": [
+   {
+    "indicator": "Nonfarm payrolls, monthly change",
+    "latest": "+29k",
+    "previous": "+133k",
+    "period": "Sep 2026 vs Aug",
+    "source": "Sep 2026 vs Aug · BLS via FRED PAYEMS",
+    "url": "https://fred.stlouisfed.org/series/PAYEMS"
+   },
+   {
+    "indicator": "Unemployment rate",
+    "latest": "4.2%",
+    "previous": "4.1%",
+    "period": "Sep 2026 vs Aug",
+    "source": "Sep 2026 vs Aug · BLS via FRED UNRATE",
+    "url": "https://fred.stlouisfed.org/series/UNRATE"
+   },
+   {
+    "indicator": "Initial jobless claims",
+    "latest": "197k",
+    "previous": "199k",
+    "period": "week to 3 Oct vs 26 Sep",
+    "source": "week to 3 Oct vs 26 Sep · DOL via FRED ICSA",
+    "url": "https://fred.stlouisfed.org/series/ICSA"
+   },
+   {
+    "indicator": "CPI, y/y",
+    "latest": "3.4%",
+    "previous": "3.4%",
+    "period": "Aug 2026 vs Jul, unadjusted (headline basis)",
+    "source": "Aug 2026 vs Jul, unadjusted (headline basis) · BLS via FRED CPIAUCNS · Sep due Wed 20:30 HKT",
+    "url": "https://fred.stlouisfed.org/series/CPIAUCNS"
+   },
+   {
+    "indicator": "Core PCE prices, y/y",
+    "latest": "3.0%",
+    "previous": "3.0%",
+    "period": "Aug 2026 vs Jul",
+    "source": "Aug 2026 vs Jul · BEA via FRED PCEPILFE",
+    "url": "https://fred.stlouisfed.org/series/PCEPILFE"
+   },
+   {
+    "indicator": "10-year real yield (TIPS)",
+    "latest": "2.88%",
+    "previous": "2.91%",
+    "period": "13 Oct close vs 9 Oct",
+    "source": "13 Oct close vs 9 Oct · US Treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&amp;field_tdr_date_value_month=202610"
+   },
+   {
+    "indicator": "10-year breakeven inflation",
+    "latest": "2.33%",
+    "previous": "2.33%",
+    "period": "13 Oct vs 9 Oct",
+    "source": "13 Oct vs 9 Oct · FRED T10YIE",
+    "url": "https://fred.stlouisfed.org/series/T10YIE"
+   },
+   {
+    "indicator": "Broad dollar index",
+    "latest": "121.60",
+    "previous": "121.45",
+    "period": "9 Oct vs 8 Oct, the latest Fed data",
+    "source": "9 Oct vs 8 Oct, the latest Fed data · FRED DTWEXBGS",
+    "url": "https://fred.stlouisfed.org/series/DTWEXBGS"
+   }
+  ],
+  "fedpath": [
+   {
+    "meeting": "28 Oct",
+    "hold": "79.3%",
+    "cut": "0.0%",
+    "hike": "20.7%",
+    "split": "Hike: +25bp 20.7%",
+    "change": "new",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch did not load)",
+    "observed_hkt": "2026-10-14T11:15"
+   },
+   {
+    "meeting": "9 Dec",
+    "hold": "10.3%",
+    "cut": "0.0%",
+    "hike": "89.8%",
+    "split": "Hike: +25bp 71.8%, +50bp 18.0%",
+    "change": "new",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch did not load)",
+    "observed_hkt": "2026-10-14T11:15"
+   },
+   {
+    "meeting": "27 Jan 2027",
+    "hold": "5.9%",
+    "cut": "0.0%",
+    "hike": "94.2%",
+    "split": "Hike: +25bp 45.4%, +50bp 41.1%, +75bp 7.7%",
+    "change": "new",
+    "source": "Investing.com Fed Rate Monitor (CME FedWatch did not load)",
+    "observed_hkt": "2026-10-14T11:15"
+   }
+  ],
+  "lens": {
+   "mechanics": "Gold competes with cash and bonds as a place to keep wealth. When they pay more than inflation, holding gold costs that real return. When inflation outruns yields, or debts look likely to be inflated away with printed money, gold gains.",
+   "data": "Three forces pull different ways. First, the real return on bonds is high: the 10-year real yield is 2.88%, a headwind. Second, inflation is sticky at 3.4% CPI and 3.0% core PCE, so markets price about a 90% chance of a hike by 9 December ( Fed Rate Monitor , 11:15 HKT). Third, jobs are cooling: payrolls rose 29k in September after 133k. The usual template is that tightening into a slowing economy ends in easing, which helps gold. Today differs because inflation has not turned down yet.",
+   "unsustainable": "Interest takes about 21% of federal revenue, like a household spending a fifth of its pay on loan interest while its rate keeps rising. These are rough indicators.",
+   "would_change": "US CPI tonight at 20:30 HKT; a soft print would weaken the hike case. Then retail sales and PPI, Thu 20:30.",
+   "check": "Debt-cycle read checked (Sonnet): 8 of 9 checks passed. Fixed: 1."
+  },
+  "longview": {
+   "status": "updated",
+   "since": "2026-10-14",
+   "rows": [
+    {
+     "indicator": "Federal debt, % of GDP",
+     "latest": "122.6%",
+     "year_earlier": "120.5%",
+     "as_of": "as of Q1 2026"
+    },
+    {
+     "indicator": "Federal debt, multiple of a year's revenue",
+     "latest": "6.5x",
+     "year_earlier": "6.4x",
+     "as_of": "as of Q2 2026"
+    },
+    {
+     "indicator": "Interest, % of federal revenue",
+     "latest": "21.1%",
+     "year_earlier": "21.2%",
+     "as_of": "as of Q2 2026"
+    },
+    {
+     "indicator": "10-year yield minus nominal GDP growth",
+     "latest": "-3.3pp",
+     "year_earlier": "-2.1pp",
+     "as_of": "yield 9 Oct, growth Q2 2026 annualised, noisy"
+    },
+    {
+     "indicator": "10-year real yield minus real GDP growth",
+     "latest": "+0.7pp",
+     "year_earlier": "-2.2pp",
+     "as_of": "yield 9 Oct, growth Q2 2026 annualised, noisy"
+    },
+    {
+     "indicator": "Fed balance sheet, change y/y",
+     "latest": "+2.4%",
+     "year_earlier": "-6.5%",
+     "as_of": "week to 7 Oct"
+    },
+    {
+     "indicator": "Foreign holdings of Treasuries, change y/y",
+     "latest": "+3.4%",
+     "year_earlier": "+11.6%",
+     "as_of": "as of Q1 2026"
+    },
+    {
+     "indicator": "Household net worth per dollar of M2",
+     "latest": "8.4x",
+     "year_earlier": "7.9x",
+     "as_of": "as of Q2 2026"
+    }
+   ],
+   "cycle": "Debt keeps growing faster than revenue, now 6.5 times a year's revenue. The big change is real rates: the real 10-year yield went from 2.2 points below real growth to 0.7 points above it, the condition under which debt burdens grow on their own. Fast nominal growth keeps the ratios steady for now. That reads as late in the cycle, in a tightening phase rather than a printing one.",
+   "asset_classes": "While real yields are high, cash earns a real return. Long-term bonds carry the risk that heavy debts are later eased with printing. Stocks depend on growth holding up under tighter money. Gold has tended to do best in the printing phase, not the tightening phase, so the framework treats it as a diversifier, not a timing call."
+  }
  }
 }
