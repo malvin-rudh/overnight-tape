@@ -1,0 +1,643 @@
+{
+ "edition": "2026-10-22",
+ "revision": 1,
+ "prompt_version": "3.2.1",
+ "generated_hkt": "2026-10-22T07:16+08:00",
+ "us_session": "2026-10-21",
+ "quotes": [
+  {
+   "instrument": "S&P 500 (cash)",
+   "level": "7,757.17",
+   "units": "index",
+   "change": "+0.58%",
+   "baseline": "20 Oct close 7,712.57",
+   "observed_hkt": "Thu 04:00",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "Nasdaq Composite (cash)",
+   "level": "26,702.86",
+   "units": "index",
+   "change": "+1.05%",
+   "baseline": "20 Oct close 26,424.82",
+   "observed_hkt": "Thu 04:00",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EIXIC/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "VIX",
+   "level": "16.68",
+   "units": "index",
+   "change": "-3.64%",
+   "baseline": "17.31",
+   "observed_hkt": "Thu 04:15",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EVIX/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "US 2-year yield",
+   "level": "4.81%",
+   "units": "%",
+   "change": "+2bp",
+   "baseline": "4.79% 20 Oct",
+   "observed_hkt": "Thu 07:20",
+   "source": "US Treasury",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "US 10-year yield",
+   "level": "5.13%",
+   "units": "%",
+   "change": "+1bp",
+   "baseline": "5.12% 20 Oct",
+   "observed_hkt": "Thu 07:20",
+   "source": "US Treasury",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "US 10-year real yield (TIPS)",
+   "level": "2.76%",
+   "units": "%",
+   "change": "-1bp",
+   "baseline": "2.77% 20 Oct",
+   "observed_hkt": "Thu 07:20",
+   "source": "US Treasury",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "DXY",
+   "level": "101.69",
+   "units": "index",
+   "change": "-0.04%",
+   "baseline": "101.73",
+   "observed_hkt": "Thu 06:04",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/DX-Y.NYB/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "USD/JPY",
+   "level": "158.15",
+   "units": "JPY per USD",
+   "change": "-0.08%",
+   "baseline": "Yahoo 20 Oct bar 158.27",
+   "observed_hkt": "Thu 07:18",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/JPY%3DX/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "USD/CNH",
+   "level": "6.6728",
+   "units": "CNH per USD",
+   "change": "-0.01%",
+   "baseline": "6.6732",
+   "observed_hkt": "Thu 07:18",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/CNH%3DX/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "Gold spot XAU/USD, bid",
+   "level": "4,126.50",
+   "units": "USD/oz",
+   "change": "-0.33% (-13.80)",
+   "baseline": "Kitco 17:00 NY reset",
+   "observed_hkt": "Thu 07:17",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/charts/gold",
+   "status": "ok",
+   "note": "Kitco late US reading 4,141.01 +0.66%"
+  },
+  {
+   "instrument": "Gold futures COMEX GCZ26",
+   "level": "4,143.10",
+   "units": "USD/oz",
+   "change": "+0.01%",
+   "baseline": "Yahoo reference 4,142.60",
+   "observed_hkt": "Thu 07:08",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/GCZ26.CMX/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "WTI CLZ26",
+   "level": "97.15",
+   "units": "USD/bbl",
+   "change": "-0.68%",
+   "baseline": "prior settle 97.82",
+   "observed_hkt": "Thu 02:30",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/news/article/2026-10-21/gold-gains-treasury-yields-stabilize-nasdaq-surges-despite-fed-tightening",
+   "status": "ok",
+   "note": "last trade 97.90 at 07:08 HKT, Yahoo"
+  },
+  {
+   "instrument": "Bitcoin",
+   "level": "84,261",
+   "units": "USD",
+   "change": "+1.59%",
+   "baseline": "20 Oct UTC close 82,941",
+   "observed_hkt": "Thu 07:18",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BTC-USD/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "instrument": "Fed funds",
+   "level": "3.75 to 4.00%",
+   "units": "%",
+   "change": "0.00%",
+   "baseline": "unchanged since 16 Sep",
+   "observed_hkt": "Thu 07:20",
+   "source": "Federal Reserve / NY Fed",
+   "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/3.json",
+   "status": "ok",
+   "note": "EFFR 3.88% on 20 Oct"
+  }
+ ],
+ "gold": {
+  "bias": "Mixed",
+  "confidence": "Low",
+  "drivers": [
+   {
+    "driver": "US dollar",
+    "evidence": "DXY -0.04% to 101.69; Kitco cites softer dollar",
+    "push": "Up",
+    "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+   },
+   {
+    "driver": "Real and nominal yields",
+    "evidence": "Real 10y 2.77% to 2.76%, nominal 5.12% to 5.13%",
+    "push": "Up",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+   },
+   {
+    "driver": "Fed expectations",
+    "evidence": "Oct hike 16.1% to 13.8%; Dec hike 86.5% to 88.2%",
+    "push": "Mixed",
+    "url": "https://www.investing.com/central-banks/fed-rate-monitor"
+   },
+   {
+    "driver": "Risk and geopolitics",
+    "evidence": "Aramco field attack, Brent +$1.50; WTI settle -0.7%; stocks up, VIX -3.64%",
+    "push": "Mixed",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
+   },
+   {
+    "driver": "Official and physical demand",
+    "evidence": "Bank of Russia sold 6.2t in Sep; Royal Mint renewed Q3 gold interest",
+    "push": "Mixed",
+    "url": "https://www.kitco.com/news/article/2026-10-21/russia-sells-62-tonnes-gold-september-bullion-reserves-fall-lowest-level"
+   }
+  ],
+  "competing": "Softer dollar and slightly lower real yield vs firmer December hike pricing; haven and oil signals two-way",
+  "would_change": "Jobless claims 20:30 HKT Thu 22 Oct; US flash PMIs 21:45 HKT Fri 23 Oct; FOMC 02:00 HKT Thu 29 Oct",
+  "driver_check": [
+   {
+    "driver": "US dollar",
+    "proposed": "Up",
+    "verifier": "Up",
+    "final": "Up",
+    "evidence_supported": "yes",
+    "note": ""
+   },
+   {
+    "driver": "Real and nominal yields",
+    "proposed": "Mixed",
+    "verifier": "Up",
+    "final": "Up",
+    "evidence_supported": "yes",
+    "note": "adopted verifier: real yield sets the push"
+   },
+   {
+    "driver": "Fed expectations",
+    "proposed": "Mixed",
+    "verifier": "Mixed",
+    "final": "Mixed",
+    "evidence_supported": "yes",
+    "note": ""
+   },
+   {
+    "driver": "Risk and geopolitics",
+    "proposed": "Mixed",
+    "verifier": "Mixed",
+    "final": "Mixed",
+    "evidence_supported": "partly",
+    "note": "oil direction disputed between sources; stated in cell"
+   },
+   {
+    "driver": "Official and physical demand",
+    "proposed": "Mixed",
+    "verifier": "Mixed",
+    "final": "Mixed",
+    "evidence_supported": "yes",
+    "note": "India WGC item dropped as stale"
+   }
+  ]
+ },
+ "calendar": [
+  {
+   "hkt": "Thu 17:10 (unconfirmed)",
+   "country": "CN",
+   "event": "FDI ytd y/y",
+   "period": "Sep",
+   "previous": "-5.3%",
+   "revised": "",
+   "forecast": "",
+   "forecast_source": "",
+   "units": "%",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Thu 18:00 (unconfirmed)",
+   "country": "UK",
+   "event": "CBI industrial order expectations",
+   "period": "Oct",
+   "previous": "-9",
+   "revised": "",
+   "forecast": "-20",
+   "forecast_source": "Forex Factory",
+   "units": "balance",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Thu 20:30",
+   "country": "US",
+   "event": "Initial jobless claims",
+   "period": "week to 17 Oct",
+   "previous": "199k",
+   "revised": "",
+   "forecast": "200k",
+   "forecast_source": "Forex Factory",
+   "units": "thousands",
+   "impact": "Medium",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Thu 22:00",
+   "country": "US",
+   "event": "Conference Board leading index m/m",
+   "period": "Sep",
+   "previous": "-0.1%",
+   "revised": "",
+   "forecast": "-0.1%",
+   "forecast_source": "Forex Factory",
+   "units": "% m/m",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Thu 22:00 (unconfirmed)",
+   "country": "EZ",
+   "event": "Consumer confidence flash",
+   "period": "Oct",
+   "previous": "-17",
+   "revised": "",
+   "forecast": "-17",
+   "forecast_source": "Forex Factory",
+   "units": "balance",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Thu 22:30 (unconfirmed)",
+   "country": "US",
+   "event": "EIA natural gas storage",
+   "period": "week to 16 Oct",
+   "previous": "67B",
+   "revised": "",
+   "forecast": "80B",
+   "forecast_source": "Forex Factory",
+   "units": "cu ft",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Fri 06:00 (unconfirmed)",
+   "country": "AU",
+   "event": "Flash PMIs",
+   "period": "Oct",
+   "previous": "49.3 / 51.4",
+   "revised": "",
+   "forecast": "",
+   "forecast_source": "",
+   "units": "index",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  },
+  {
+   "hkt": "Fri 07:01 (unconfirmed)",
+   "country": "UK",
+   "event": "GfK consumer confidence",
+   "period": "Oct",
+   "previous": "-13",
+   "revised": "",
+   "forecast": "-14",
+   "forecast_source": "Forex Factory",
+   "units": "balance",
+   "impact": "Low",
+   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+  }
+ ],
+ "calendar_status": "Verified quiet: no high-impact USD events before Fri 23 Oct 07:15 HKT, checked against Forex Factory, the Fed FOMC calendar and the DOL claims release.",
+ "headlines": [
+  "Gold up 0.66% Wed on softer dollar, slips in early Asia",
+  "December hike odds 88.2%",
+  "Nasdaq +1.05% on SpaceX and chips",
+  "Aramco field attack lifts Brent",
+  "UK CPI 3.5% vs 3.4%",
+  "PHP flaws found by AI; Meta, Tesla, Lam, TI results"
+ ],
+ "corrections": [
+  "No corrections to the previous edition."
+ ],
+ "ai_stories": [
+  {
+   "id": "php2shell-ai-found-flaws",
+   "headline": "AI-found PHP flaws push sites offline",
+   "facts": [
+    "see fact packet from research agent; facts restricted to opened sources"
+   ],
+   "sources": [
+    "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+    "https://www.theregister.com/security/2026/10/21/php-devs-publish-critical-bug-fix-as-site-owners-warned-pull-em-offline-if-youre-unpatched/5304519",
+    "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+    "https://www.theverge.com/tech/1015257/php-vulnerability-patch-website-security-wordpress"
+   ],
+   "paragraph": "PHP is a programming language that builds many web pages on the server when they load. Two bugs in PHP, present in every version since PHP 5 in 2004, let a stranger run commands on a server without logging in, which is what 'unauthenticated remote code execution' means. Think of a shop door that opens for anyone who knows the right knock. AI tools found them; emergency fixes shipped on 21 Oct, and agencies told organisations unable to patch quickly to go offline. Unproven is the scale: Wiz says roughly 70% of the internet is affected, the BBC cannot verify that, and whether any attack has succeeded is disputed.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "meta-q3-class-c-nm-penalty",
+   "headline": "Meta beats, adds non-voting stock, faces $25bn penalty",
+   "facts": [
+    "see fact packet from research agent; facts restricted to opened sources"
+   ],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+    "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo"
+   ],
+   "paragraph": "Meta's quarter holds three separate stories. First, revenue rose 26% to $64.60bn, but costs rose 68%, so operating margin fell from 40% to 20%; part of that is a $9.89bn charge for a teen mental health settlement. Second, a new non-voting Class C stock arrives on 19 Jan 2027, handed free to every current shareholder. Meta says it is for capital raising, employee pay and acquisitions while keeping Zuckerberg's founder control. Why does that work? Extra shares can be issued without extra votes. Third, a New Mexico judge ordered $25bn in penalties, which Meta will appeal. Unknown: whether Meta will book that as a charge.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "tesla-q3-optimus",
+   "headline": "Tesla profit falls 43% as Optimus production starts",
+   "facts": [
+    "see fact packet from research agent; facts restricted to opened sources"
+   ],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+    "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+    "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger"
+   ],
+   "paragraph": "Tesla's profit fell while its robot news grew. GAAP net income was $787m, down 43%, on revenue of $28.046bn, flat against last year, and deliveries fell 2%. Meanwhile Optimus, a humanoid robot, has started production on high-volume lines in Fremont, though Musk himself called it 'early production'. The claimed rate of 20,000 per week by end-2027 is a promise from Musk, reported by one source, not a result. Also unproven: the timeline for unsupervised self-driving slipped to 'somewhere around Q2 next year' for the first customer cars joining the robotaxi fleet. Whether revenue beat depends on whose consensus is used.",
+   "edited": "none",
+   "explainer": "sonnet"
+  },
+  {
+   "id": "chips-lam-ti-nvidia",
+   "headline": "Lam and TI post strong quarters; Nvidia shows a factory-built pod",
+   "facts": [
+    "see fact packet from research agent; facts restricted to opened sources"
+   ],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm",
+    "https://www.sec.gov/Archives/edgar/data/97476/000009747626000165/q32026txnex99-eredgar.htm",
+    "https://www.theregister.com/control/2026/10/21/huang-shrugs-off-protestors-to-kick-off-gtc-berlin-with-dsx-pods-robots/5304447"
+   ],
+   "paragraph": "Why would a company that makes chipmaking machines do well when people want AI? Every AI chip must first be manufactured. Lam Research posted record revenue of $8.22bn, up from $5.32bn a year earlier, and its CEO credited AI-driven demand; Texas Instruments reported revenue up 28% to $6.06bn. Nvidia showed the Vera Rubin DSX Pod, a datacenter built in a factory as a container, due early 2027; Huang claims it cuts setup from 4 to 5 months to about one, which is unproven so far and comes from a single report. Lam's shares reportedly slid despite the beat, by an unknown amount.",
+   "edited": "none",
+   "explainer": "sonnet"
+  }
+ ],
+ "macro": {
+  "data": {
+   "source": "FRED, Federal Reserve Bank of St. Louis. Series page: https://fred.stlouisfed.org/series/<ID>",
+   "fetched_utc": "2026-10-21T23:17Z",
+   "series": {},
+   "derived": {},
+   "unavailable": [
+    "PAYEMS",
+    "UNRATE",
+    "ICSA",
+    "CPIAUCNS",
+    "CPILFENS",
+    "PCEPILFE",
+    "T10YIE",
+    "DFF",
+    "DGS2",
+    "DGS10",
+    "DFII10",
+    "DTWEXBGS",
+    "A191RP1Q027SBEA",
+    "A191RL1Q225SBEA",
+    "GFDEGDQ188S",
+    "GFDEBTN",
+    "FGRECPT",
+    "A091RC1Q027SBEA",
+    "FYFSGDA188S",
+    "WALCL",
+    "M2SL",
+    "FDHBFIN",
+    "TNWBSHNO",
+    "payrolls_change_k",
+    "cpi_yoy_pct",
+    "core_cpi_yoy_pct",
+    "core_pce_yoy_pct",
+    "debt_to_revenue_x",
+    "interest_to_revenue_pct",
+    "nominal_10y_minus_nominal_growth_pp",
+    "real_10y_minus_real_growth_pp",
+    "fed_balance_sheet_yoy_pct",
+    "foreign_treasury_holdings_yoy_pct",
+    "household_net_worth_to_m2_x"
+   ]
+  },
+  "us_data_rows": [
+   {
+    "indicator": "Nonfarm payrolls, change",
+    "latest": "+29k",
+    "previous": "+133k",
+    "period": "Sep; released 2 Oct",
+    "source": "BLS",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+   },
+   {
+    "indicator": "Unemployment rate",
+    "latest": "4.2%",
+    "previous": "4.1%",
+    "period": "Sep",
+    "source": "BLS",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+   },
+   {
+    "indicator": "Initial jobless claims",
+    "latest": "199k",
+    "previous": "198k",
+    "period": "week to 10 Oct; released 15 Oct",
+    "source": "DOL",
+    "url": "https://www.dol.gov/ui/data.pdf"
+   },
+   {
+    "indicator": "CPI, y/y",
+    "latest": "3.7%",
+    "previous": "3.4%",
+    "period": "Sep; released 14 Oct",
+    "source": "BLS",
+    "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+   },
+   {
+    "indicator": "Core PCE, y/y",
+    "latest": "3.0%",
+    "previous": "Unavailable",
+    "period": "Aug; released 30 Sep",
+    "source": "BEA",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+   },
+   {
+    "indicator": "10-year real yield",
+    "latest": "2.76%",
+    "previous": "2.77%",
+    "period": "21 Oct",
+    "source": "US Treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+   },
+   {
+    "indicator": "10-year breakeven",
+    "latest": "2.37%",
+    "previous": "2.35%",
+    "period": "21 Oct; Treasury nominal minus real",
+    "source": "US Treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+   },
+   {
+    "indicator": "Broad dollar index",
+    "latest": "121.4048",
+    "previous": "121.5693",
+    "period": "16 Oct",
+    "source": "Fed H.10",
+    "url": "https://www.federalreserve.gov/releases/h10/current/default.htm"
+   }
+  ],
+  "fedpath": [
+   {
+    "meeting": "28 Oct 2026",
+    "hold": "86.2%",
+    "cut": "0.0%",
+    "hike": "13.8%",
+    "split": "+25bp 13.8%",
+    "change": "+2.3pp",
+    "source": "Investing.com Fed Rate Monitor",
+    "observed_hkt": "2026-10-22T06:55+08:00"
+   },
+   {
+    "meeting": "9 Dec 2026",
+    "hold": "11.8%",
+    "cut": "0.0%",
+    "hike": "88.2%",
+    "split": "+25bp 76.3%; +50bp 11.9%",
+    "change": "+1.7pp",
+    "source": "Investing.com Fed Rate Monitor",
+    "observed_hkt": "2026-10-22T06:55+08:00"
+   },
+   {
+    "meeting": "27 Jan 2027",
+    "hold": "6.2%",
+    "cut": "0.0%",
+    "hike": "93.8%",
+    "split": "+25bp 45.5%; +50bp 42.6%; +75bp 5.7%",
+    "change": "+0.5pp",
+    "source": "Investing.com Fed Rate Monitor",
+    "observed_hkt": "2026-10-22T06:55+08:00"
+   }
+  ],
+  "lens": {
+   "mechanics": "Gold competes with cash and bonds; cost is the real yield forgone",
+   "data": "Three forces: real yield 2.76%, CPI 3.7%, payrolls +29k; inflation sets policy",
+   "unsustainable": "5.13% 10y borrowing while hiring stalls",
+   "would_change": "claims, flash PMIs, FOMC",
+   "check": "9 of 9 passed"
+  },
+  "longview": {
+   "status": "unchanged",
+   "since": "2026-10-21",
+   "rows": [
+    {
+     "indicator": "Federal debt % GDP",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Debt / revenue",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Interest / revenue",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "10y minus nominal GDP growth",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Real 10y minus real GDP growth",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Fed balance sheet y/y",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Foreign Treasury holdings y/y",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    },
+    {
+     "indicator": "Household net worth / M2",
+     "latest": "Unavailable",
+     "year_earlier": "Unavailable",
+     "as_of": "FRED under maintenance"
+    }
+   ],
+   "cycle": "Late, highly indebted phase with limited fiscal room; no input refreshed",
+   "asset_classes": "Unchanged text from 21 Oct"
+  }
+ }
+}
